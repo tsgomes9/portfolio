@@ -1,0 +1,61 @@
+.habilitys-session {
+  position: relative;
+  //   height: 65rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background: rgb(244, 244, 244);
+
+  h1 {
+    font-weight: 900;
+  }
+}
+
+.hability-card {
+  text-align: center;
+
+  h2 {
+    font-weight: 100;
+  }
+  p {
+    color: grey;
+    font-weight: 100;
+    font-size: 17px;
+  }
+}
+
+.material-symbols-outlined {
+  font-size: 4rem;
+  color: #c7b7e1;
+}
+
+.hability-icons {
+  bottom: -8%;
+  position: absolute;
+
+  height: 3rem;
+  background: rgb(244, 244, 244);
+  padding: 0.5rem 0 0 0.5rem;
+  box-shadow: 0 5px 6px 1px rgb(218, 218, 218);
+  border-radius: 5px;
+}
+
+.hability-list {
+  font-weight: 100;
+}
+
+.devicon-linkedin-plain,
+.devicon-github-original,
+.devicon-react-original,
+.devicon-nodejs-plain,
+.devicon-javascript-plain,
+.devicon-html5-plain,
+.devicon-sass-original,
+.devicon-bootstrap-plain,
+.devicon-css3-plain,
+.devicon-git-plain,
+.devicon-mongodb-plain,
+.devicon-postgresql-plain {
+  color: #6610f2;
+  font-size: 30px;
+  margin-right: 1rem;
+}
