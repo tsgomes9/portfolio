@@ -3,8 +3,8 @@ import './headerStyle.scss'
 const Header = () => {
   return (
     <div className="navbar bg-light fixed-top navbar-expand-lg" id="header">
-      <div className="container header">
-        <a className="navbar-brand logo" href="#header">
+      <div className="container">
+        <a className="navbar-brand logo" href="#hello-world">
           Meu Portfólio
         </a>
         <button
@@ -57,20 +57,6 @@ const Header = () => {
               </li>
             </ul>
           </div>
-        </div>
-      </div>
-      <div className="container">
-        <div className="hello-message col-12 col-sm-12 col-md-12 col-lg-6">
-          <h1>Olá, eu o Thiago!</h1>
-
-          <p>
-            Aqui você pode conferir minhas informações profissionais e
-            acadêmicas, além de alguns projetos que venho desenvolvendo{' '}
-          </p>
-
-          <i class="devicon-linkedin-plain"></i>
-
-          <i class="devicon-github-original"></i>
         </div>
       </div>
     </div>

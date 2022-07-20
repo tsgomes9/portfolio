@@ -1,9 +1,9 @@
 import './aboutMe.scss'
 const AboutMe = () => {
   return (
-    <div className="">
-      <div className="container" id="aboutMe">
-        <div className="aboutMe-session col-12 col-12 col-sm-12 col-md-12 col-lg-6 ">
+    <div className="aboutMe-session" id="aboutMe">
+      <div className=" container">
+        <div className=" col-12 col-12 col-sm-12 col-md-12 col-lg-6  ">
           <h1>Resumo</h1>
           <p>
             Bacharel em Sistemas de Informação pelo Centro Universitário do
