@@ -20,7 +20,7 @@
 
 .nav-style-item {
   display: flex;
-
+  font-weight: 500;
   height: 2.5rem;
   width: 7rem;
   align-items: center;
@@ -49,15 +49,4 @@
   border-radius: 20px;
   border: 2px solid #6610f2;
   color: #6610f2;
-}
-
-.hello-message {
-  // max-width: 540px;
-  h1 {
-    font-weight: 900;
-  }
-  p {
-    font-weight: 300;
-    font-size: 17px;
-  }
 }
