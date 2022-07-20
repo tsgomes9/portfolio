@@ -6,7 +6,7 @@ import DevProjects from '../components/devProjects/devProjects'
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <AboutMe />
       <Habilitys />
       <DevProjects />
