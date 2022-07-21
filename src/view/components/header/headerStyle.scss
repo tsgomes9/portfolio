@@ -1,21 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.header {
-  display: flex;
+.navbar {
   position: fixed;
-  top: 0;
-  left: -50%;
-  right: -50%;
-  background: rgb(244, 244, 244);
-  padding: 1rem 2rem;
-  border-radius: 0 0 6px 6px;
-  box-shadow: 3px 0 10px 1px rgb(219, 219, 219);
+  background: #6610f2 !important;
+  padding: 0.6rem 2rem;
+}
+
+.offcanvas-body,
+.offcanvas-header {
+  background: #6610f2;
+  color: white;
+  font-weight: 300;
+  h5 {
+    margin-top: 1rem;
+    font-weight: 300;
+    font-size: 30px;
+  }
 }
 
 .logo {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 20px;
+  color: white;
+  &:hover {
+    color: white;
+  }
 }
 
 .nav-style-item {
@@ -25,14 +35,14 @@
   width: 7rem;
   align-items: center;
   justify-content: center;
-
+  color: white;
   border-radius: 20px;
 }
 
 .nav-style-item:hover,
 .nav-style-item-contact:hover {
-  background: #6610f2;
-  color: white;
+  background: white;
+  color: #6610f2;
   -webkit-transition: 0.3s ease-in;
   -moz-transition: 0.3s ease-in;
   -o-transition: 0.3s ease-in;
@@ -47,6 +57,6 @@
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  border: 2px solid #6610f2;
-  color: #6610f2;
+  border: 2px solid white;
+  color: white;
 }

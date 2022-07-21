@@ -2,16 +2,12 @@ import './headerStyle.scss'
 
 const Header = () => {
   return (
-    <div
-      className="navbar bg-light fixed-top navbar-expand-lg px-4"
-      id="header"
-    >
-      {/* <div className="container"> */}
+    <div className="navbar navbar-dark fixed-top navbar-expand-lg" id="header">
       <a className="navbar-brand logo" href="#hello-world">
         Meu Portfólio
       </a>
       <button
-        className="navbar-toggler"
+        className="navbar-toggler "
         type="button"
         data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasNavbar"
@@ -29,6 +25,7 @@ const Header = () => {
           <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
             Menu Principal
           </h5>
+
           <button
             type="button"
             className="btn-close"
@@ -36,7 +33,7 @@ const Header = () => {
             aria-label="Close"
           ></button>
         </div>
-        <div className="offcanvas-body">
+        <div className="offcanvas-body ">
           <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#aboutMe">
@@ -54,7 +51,7 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#contact">
                 <div className="nav-style-item-contact">Contato</div>
               </a>
             </li>

@@ -1,46 +1,60 @@
 .devProjects-session {
-  height: 100vh;
-  padding-top: 5rem;
+  position: relative;
+  padding-top: 5.5rem;
+  padding-bottom: 5rem;
 
   h1 {
     font-weight: 900;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.8rem;
   }
 }
 
 .project {
   border: none;
-  margin-bottom: 1.6rem;
+  margin-bottom: 3rem;
   h2 {
     font-weight: 300;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.7rem;
     text-align: center;
   }
 
   p {
     text-align: justify;
     font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  a {
+    text-align: right;
   }
 }
 
-.project-open {
-  color: #c7b7e1;
+.project-open,
+.project-github {
+  color: #6610f2;
   font-size: 28px;
   text-align: right;
 }
 
 .project-icons {
-  bottom: -5%;
-  right: 18%;
   position: absolute;
+  bottom: -5%;
   width: 13.8rem;
   height: 3rem;
   background: #6610f2;
-  //   padding: 0.5rem 0 1rem 1rem;
-  //   box-shadow: 0 5px 6px 1px rgb(218, 218, 218);
   border-radius: 5px;
   i {
     margin: 0;
     margin-left: 0.6rem;
+  }
+}
+
+.project-links {
+  display: flex;
+  justify-content: right;
+  a {
+    text-decoration: none;
+    margin-bottom: 0.3rem;
+    margin-top: 0.4rem;
   }
 }

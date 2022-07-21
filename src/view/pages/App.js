@@ -2,6 +2,7 @@ import Header from '../components/header/header'
 import AboutMe from '../components/aboutMe/aboutMe'
 import Habilitys from '../components/habilitys/habilitys'
 import DevProjects from '../components/devProjects/devProjects'
+import Contact from '../components/contact/contact'
 
 import './App.scss'
 
@@ -28,6 +29,7 @@ function App() {
       <AboutMe />
       <Habilitys />
       <DevProjects />
+      <Contact />
     </div>
   )
 }
