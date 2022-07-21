@@ -29,13 +29,6 @@
   }
 }
 
-.project-open,
-.project-github {
-  color: #6610f2;
-  font-size: 28px;
-  text-align: right;
-}
-
 .project-icons {
   position: absolute;
   bottom: -5%;
@@ -52,10 +45,18 @@
 .project-links {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 0.4rem;
+  margin-top: 0.4rem;
+
   a {
     text-decoration: none;
+    font-size: 28px;
+  }
 
-    margin-top: 0.4rem;
+  span {
+    margin-top: 0.3rem;
+    font-size: 33px;
+    color: #6610f2;
   }
 }
