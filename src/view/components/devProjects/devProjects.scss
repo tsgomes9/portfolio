@@ -1,8 +1,46 @@
 .devProjects-session {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 5rem;
 
   h1 {
     font-weight: 900;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.project {
+  border: none;
+  margin-bottom: 1.6rem;
+  h2 {
+    font-weight: 300;
+    margin-bottom: 1.2rem;
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 14px;
+  }
+}
+
+.project-open {
+  color: #c7b7e1;
+  font-size: 28px;
+  text-align: right;
+}
+
+.project-icons {
+  bottom: -5%;
+  right: 18%;
+  position: absolute;
+  width: 13.8rem;
+  height: 3rem;
+  background: #6610f2;
+  //   padding: 0.5rem 0 1rem 1rem;
+  //   box-shadow: 0 5px 6px 1px rgb(218, 218, 218);
+  border-radius: 5px;
+  i {
+    margin: 0;
+    margin-left: 0.6rem;
   }
 }
