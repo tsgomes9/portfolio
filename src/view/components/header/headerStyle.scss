@@ -2,12 +2,12 @@
 
 .navbar {
   position: fixed;
-  background: #6610f2 !important;
+  background: var(--principal) !important;
 }
 
 .offcanvas-body,
 .offcanvas-header {
-  background: #6610f2;
+  background: var(--principal);
   color: white;
   font-weight: 300;
   h5 {
@@ -41,7 +41,7 @@
 .nav-style-item:hover,
 .nav-style-item-contact:hover {
   background: white;
-  color: #6610f2;
+  color: var(--principal);
   -webkit-transition: 0.3s ease-in;
   -moz-transition: 0.3s ease-in;
   -o-transition: 0.3s ease-in;

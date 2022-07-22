@@ -8,7 +8,7 @@ const DevProjects = () => {
 
       <div className="row ">
         <div className="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
-          <div className="card p-4 project shadow-lg">
+          <div className="card p-4 project shadow">
             <h2>Mercado Crypto</h2>
             <img
               src={mercadoCrypto}

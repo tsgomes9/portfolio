@@ -5,7 +5,7 @@ const Header = () => {
     <div className="navbar navbar-dark fixed-top navbar-expand-lg" id="header">
       <div className="container">
         <a className="navbar-brand logo" href="#hello-world">
-          Meu Portfólio
+          Portfólio
         </a>
         <button
           className="navbar-toggler "

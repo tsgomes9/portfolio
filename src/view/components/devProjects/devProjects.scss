@@ -34,7 +34,7 @@
   bottom: -5%;
   width: 13.8rem;
   height: 3rem;
-  background: #6610f2;
+  background: var(--principal);
   border-radius: 5px;
   i {
     margin: 0;
@@ -46,7 +46,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0.4rem;
   margin-top: 0.4rem;
 
   a {
@@ -57,6 +56,6 @@
   span {
     margin-top: 0.3rem;
     font-size: 33px;
-    color: #6610f2;
+    color: var(--principal);
   }
 }

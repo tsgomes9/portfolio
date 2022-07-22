@@ -13,7 +13,7 @@ function App() {
       <div className="hello-container" id="hello-world">
         <div className="container">
           <div className="hello-message col-12 col-sm-12 col-md-12 col-lg-6 ">
-            <h1>Olá, eu o Thiago!</h1>
+            <h1>Olá, eu sou o Thiago!</h1>
 
             <p>
               Aqui você pode conferir minhas informações profissionais e
