@@ -1,10 +1,10 @@
 import emailjs from 'emailjs-com'
 import './contact.scss'
-import { useRef } from 'react'
-import Confirm from './confirm'
+// import { useRef } from 'react'
+// import Confirm from './confirm'
 
 const Contact = () => {
-  const form = useRef()
+  // const form = useRef()
   function SendMessage(e) {
     e.preventDefault()
 
@@ -28,7 +28,9 @@ const Contact = () => {
   }
 
   return (
-    <form onSubmit={SendMessage} ref={form}>
+    <form onSubmit={SendMessage}>
+      {' '}
+      {/*ref={form} */}
       <div className="contact-session" id="contact">
         <div className="container container-fluid">
           <div className="row justify-content-md-center">

@@ -1,6 +1,15 @@
 import './headerStyle.scss'
 
 const Header = () => {
+  // Função que recebe um valor de id e faz scroll para sessão correspondente
+  function scrollWin(e) {
+    setTimeout(() => {
+      //Replace para tornar o id igual ao da sessão correspondente
+      const element = document.getElementById(`${e.replace('Link', '')}`)
+      element.scrollIntoView()
+    }, 400)
+  }
+
   return (
     <div className="navbar navbar-dark fixed-top navbar-expand-lg" id="header">
       <div className="container">
@@ -13,6 +22,7 @@ const Header = () => {
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
+          // onClick={setToggle}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -37,23 +47,56 @@ const Header = () => {
           <div className="offcanvas-body ">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#aboutMe">
-                  <div className="nav-style-item">Sobre mim</div>
+                <a
+                  className="nav-link"
+                  aria-current="page"
+                  href="#aboutMe"
+                  onClick={(e) => scrollWin(e.target.id)}
+                  data-bs-target="offcanvas"
+                  data-bs-dismiss="offcanvas"
+                >
+                  <div className="nav-style-item" id="aboutMeLink">
+                    Sobre mim
+                  </div>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#habilitys">
-                  <div className="nav-style-item">Habilidades</div>
+                <a
+                  className="nav-link"
+                  href="#habilitys"
+                  onClick={(e) => scrollWin(e.target.id)}
+                  data-bs-target="offcanvas"
+                  data-bs-dismiss="offcanvas"
+                >
+                  <div className="nav-style-item" id="habilitysLink">
+                    Habilidades
+                  </div>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#projects">
-                  <div className="nav-style-item">Projetos</div>
+                <a
+                  className="nav-link"
+                  href="#projects"
+                  onClick={(e) => scrollWin(e.target.id)}
+                  data-bs-target="offcanvas"
+                  data-bs-dismiss="offcanvas"
+                >
+                  <div className="nav-style-item" id="projectsLink">
+                    Projetos
+                  </div>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">
-                  <div className="nav-style-item-contact">Contato</div>
+                <a
+                  className="nav-link"
+                  href="#contact"
+                  onClick={(e) => scrollWin(e.target.id)}
+                  data-bs-target="offcanvas"
+                  data-bs-dismiss="offcanvas"
+                >
+                  <div className="nav-style-item-contact" id="contactLink">
+                    Contato
+                  </div>
                 </a>
               </li>
             </ul>

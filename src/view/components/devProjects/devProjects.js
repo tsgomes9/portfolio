@@ -16,10 +16,9 @@ const DevProjects = () => {
             ></img>
             <p>
               Projeto que traz informações em tempo real sobre o mercado de
-              criptomoedas. Consumindo a API do mercado bitcoin, são obtidos e
-              analisados os dados relacionados aos valores dos ativos. Para
-              garantir a responsividade, foi utilizado o framework Bootstrap. O
-              back end foi desenvolvido em javascript
+              criptomoedas. Os dados são obtidos e analisados consumindo a API
+              do Mercado Bitcoin. No frontend foi utilizado o framework
+              Bootstrap. O back end foi desenvolvido em javascript
             </p>
 
             <div className="project-links">
@@ -57,10 +56,9 @@ const DevProjects = () => {
             ></img>
             <p>
               Projeto que traz informações em tempo real sobre o mercado de
-              criptomoedas. Consumindo a API do mercado bitcoin, são obtidos e
-              analisados os dados relacionados aos valores dos ativos. Para
-              garantir a responsividade, foi utilizado o framework Bootstrap. O
-              back end foi desenvolvido em javascript
+              criptomoedas. Os dados são obtidos e analisados consumindo a API
+              do Mercado Bitcoin. No frontend foi utilizado o framework
+              Bootstrap. O back end foi desenvolvido em javascript
             </p>
 
             <div className="project-links">
@@ -98,10 +96,9 @@ const DevProjects = () => {
             ></img>
             <p>
               Projeto que traz informações em tempo real sobre o mercado de
-              criptomoedas. Consumindo a API do mercado bitcoin, são obtidos e
-              analisados os dados relacionados aos valores dos ativos. Para
-              garantir a responsividade, foi utilizado o framework Bootstrap. O
-              back end foi desenvolvido em javascript
+              criptomoedas. Os dados são obtidos e analisados consumindo a API
+              do Mercado Bitcoin. No frontend foi utilizado o framework
+              Bootstrap. O back end foi desenvolvido em javascript
             </p>
 
             <div className="project-links">
