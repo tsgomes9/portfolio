@@ -1,6 +1,7 @@
 import './devProjects.scss'
 import mercadoCrypto from '../../img/mercadoCrypto.png'
 import burguerShow from '../../img/burguerShow.png'
+import restAPI from '../../img/restAPI.png'
 
 const DevProjects = () => {
   return (
@@ -91,30 +92,25 @@ const DevProjects = () => {
 
         <div className="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
           <div className="card p-4 project shadow-lg">
-            <h2>Mercado Crypto</h2>
+            <h2>API Rest</h2>
             <img
-              src={mercadoCrypto}
+              src={restAPI}
               className="img-fluid rounded border mb-3 shadow"
             ></img>
             <p>
-              Projeto que traz informações em tempo real sobre o mercado de
-              criptomoedas. Os dados são obtidos e analisados consumindo a API
-              do Mercado Bitcoin. No frontend foi utilizado o framework
-              Bootstrap. O back end foi desenvolvido em javascript
+              API rest desenvolvida em NodeJS. A base de dados utilizada neste
+              projeto foi o banco de dados não relacional MongoDB. O projeto
+              consiste em uma aplicação simples de cadastro de pessoas, com
+              intuito de exemplificar o uso de solicitações HTTP.
             </p>
 
-            <div className="project-links">
+            <div className="project-links mt-2 mb-1">
               <a
-                href="https://github.com/tsgomes9/MercadoCrypto"
+                href="https://github.com/tsgomes9/API_Person"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i class="devicon-github-original project-github"></i>
-              </a>
-
-              <a href="https://mercado-crypto.netlify.app" target="_blank">
-                <span class="material-symbols-outlined project-open">
-                  open_in_new
-                </span>
               </a>
             </div>
             <div className="d-flex justify-content-center">

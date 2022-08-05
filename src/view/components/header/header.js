@@ -1,7 +1,10 @@
 import './headerStyle.scss'
 
 const Header = () => {
-  // Função que recebe um valor de id e faz scroll para sessão correspondente
+  // Função scrollWin recebe um valor de id e faz scroll para sessão correspondente.
+
+  // Função criada devido a necessidade de fechar o offcanvas e em seguida fazer
+  // a movimentação para a sessão correspondente
   function scrollWin(e) {
     setTimeout(() => {
       //Replace para tornar o id igual ao da sessão correspondente
