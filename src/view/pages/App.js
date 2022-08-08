@@ -19,10 +19,12 @@ function App() {
               Aqui você pode conferir minhas informações profissionais e
               acadêmicas, além de alguns projetos que venho desenvolvendo{' '}
             </p>
-
-            <i class="devicon-linkedin-plain"></i>
-
-            <i class="devicon-github-original"></i>
+            <a href="https://www.linkedin.com/in/thiago-gomes28/">
+              <i class="devicon-linkedin-plain"></i>
+            </a>
+            <a href="https://github.com/tsgomes9">
+              <i class="devicon-github-original"></i>
+            </a>
           </div>
         </div>
       </div>
